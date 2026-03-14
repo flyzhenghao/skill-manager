@@ -1,6 +1,6 @@
 ---
 name: skill-manager
-description: A Claude Code skill that allows you to search, browse, and install skills from a database of 31,767+ community skills with intelligent folder-level downloads. Supports SVN export, Git sparse checkout, and HTTP fallback methods for complete skill folder installation.
+description: Search, browse, and install skills from 31K+ community database
 version: 2.0.0
 author: buzhangsan@github
 license: MIT
@@ -21,6 +21,7 @@ requirements:
   - Node.js >= 14.0.0
   - Internet connection
   - SVN client (recommended) or Git
+agents: [orchestrator, engineer]
 ---
 
 # Skill Manager
@@ -226,3 +227,12 @@ The skill responds to natural language requests like:
 - Now downloads complete skill folders, not just SKILL.md
 - Automatic method detection and selection
 - Enhanced error handling and troubleshooting tips
+
+## Metadata
+- **版本**: v1.0.0
+- **修改日期**: 2026-01-17
+
+## Known Failures & Fixes
+
+| 日期 | 症状 | 根因 | 修复 | 版本 |
+|------|------|------|------|------|
